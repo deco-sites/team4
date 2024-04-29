@@ -3243,39 +3243,32 @@
         ]
       },
       {
-        "__resolveType": "site/sections/Miscellaneous/Slide.tsx",
-        "content": [
+        "__resolveType": "site/sections/Content/Benefits.tsx",
+        "benefits": [
           {
-            "label": "HOT SALE",
-            "repeat": 30
-          }
-        ]
-      },
-      {
-        "__resolveType": "site/sections/Miscellaneous/CampaignTimer.tsx",
-        "link": {
-          "href": "https://github.com/deco-cx",
-          "text": "Visit our GitHub"
-        },
-        "text": "<p>Design, develop and deliver complete experiences</p>",
-        "labels": {
-          "days": "days",
-          "hours": "hours",
-          "expired": " Expired!",
-          "minutes": "minutes",
-          "seconds": "seconds"
-        },
-        "layout": {
-          "textPosition": "After counter"
-        },
-        "expiresAt": "2024-03-15T17:23:00.000Z"
-      },
-      {
-        "__resolveType": "site/sections/Miscellaneous/Slide.tsx",
-        "content": [
+            "icon": "Truck",
+            "label": "Frete Grátis",
+            "description": "Acima de R$ 500"
+          },
           {
-            "label": "HOT SALE",
-            "repeat": 30
+            "icon": "Pixs",
+            "label": "Pague com Pix e ",
+            "description": "Ganhe 3% OFF"
+          },
+          {
+            "icon": "Star",
+            "label": "Compre no Site e",
+            "description": "Troque na Loja"
+          },
+          {
+            "icon": "CreditCards",
+            "label": "Parcele em Até",
+            "description": "10x Sem Juros"
+          },
+          {
+            "icon": "Discount",
+            "label": "10% de Desconto",
+            "description": "Primeira Compra"
           }
         ]
       },
@@ -3319,47 +3312,6 @@
             }
           },
           "__resolveType": "site/loaders/Layouts/ProductCard.tsx"
-        }
-      },
-      {
-        "__resolveType": "Shoppable Banner - 01"
-      },
-      {
-        "__resolveType": "site/sections/Category/CategoryGrid.tsx",
-        "list": [
-          {
-            "href": "/",
-            "image": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/2291/01c01ba9-ac16-4371-82ca-b93d17545f9c",
-            "label": "Your Collection",
-            "buttonText": "Explore collection"
-          },
-          {
-            "href": "/",
-            "image": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/2291/9b80d57d-64b0-4eef-a3cd-fa8daafaae9c",
-            "label": "Your Collection",
-            "buttonText": "Explore collection"
-          },
-          {
-            "href": "/",
-            "image": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/2291/ed4c0eb3-96ab-484f-b293-e91d196a5063",
-            "label": "Your Collection",
-            "buttonText": "Explore collection"
-          },
-          {
-            "href": "/",
-            "image": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/2291/b9882ff7-3dbc-43e4-9813-5cec23c012cd",
-            "label": "Your Collection",
-            "buttonText": "Explore collection"
-          }
-        ],
-        "header": {
-          "title": "Explore Our Categories"
-        },
-        "layout": {
-          "categoryCard": {
-            "textPosition": "bottom",
-            "textAlignment": "left"
-          }
         }
       },
       {
@@ -3420,6 +3372,7 @@
       },
       {
         "__resolveType": "site/sections/Product/ProductShelfTabbed.tsx",
+        "title": "Best Sellers",
         "tabs": [
           {
             "title": "Woman",
@@ -3444,7 +3397,6 @@
             }
           }
         ],
-        "title": "Best Sellers",
         "layout": {
           "headerfontSize": "Large",
           "headerAlignment": "center"
@@ -3454,8 +3406,8 @@
         }
       },
       {
-        "title": "Blogposts",
         "__resolveType": "site/sections/Content/BlogPosts.tsx",
+        "title": "Blogposts",
         "posts": [
           {
             "alt": "Item of the Summer",
@@ -3534,7 +3486,9 @@
         "jsonLD": {
           "__resolveType": "PDP Loader"
         },
-        "jsonLDs": [{}],
+        "jsonLDs": [
+          {}
+        ],
         "__resolveType": "commerce/sections/Seo/SeoPDP.tsx"
       },
       {
