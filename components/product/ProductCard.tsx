@@ -54,7 +54,7 @@ function ProductCard({
     <div
       id={id}
       data-deco="view-product"
-      class="card card-compact group w-full lg:border lg:border-transparent lg:hover:border-inherit lg:p-4"
+      class="card card-compact group w-full lg:border lg:border-transparent lg:hover:border-inherit"
     >
       {/* Add click event to dataLayer */}
       <SendEventOnClick
@@ -75,7 +75,7 @@ function ProductCard({
         }}
       />
 
-      <div class="flex flex-col gap-2 lg:group-hover:-translate-y-2">
+      <div class="flex flex-col gap-2 lg:group-hover:-translate-y-2 product-shelf">
         <figure
           class="relative overflow-hidden"
           style={{ aspectRatio }}
@@ -85,14 +85,14 @@ function ProductCard({
             class={clx(
               "absolute top-0 left-0",
               "z-10 w-full",
-              "flex items-center justify-end",
+              "flex items-center justify-between desconto-flag",
             )}
           >
             {/* Discount % */}
-            <div class="text-sm px-3">
+            <div class="text-sm px-3 flag">
               <span class="font-bold">
                 {listPrice && price
-                  ? `${Math.round(((listPrice - price) / listPrice) * 100)}% `
+                  ? `${Math.round(((listPrice - price) / listPrice) * 100)}%`
                   : ""}
               </span>
               OFF
@@ -161,7 +161,8 @@ function ProductCard({
         </figure>
 
         {/* SKU Selector */}
-        <ul class="flex items-center justify-center gap-2">
+        {
+          /*         <ul class="flex items-center justify-center gap-2">
           {variants
             .map(([value, link]) => [value, relative(link)] as const)
             .map(([value, link]) => (
@@ -178,40 +179,43 @@ function ProductCard({
                 </a>
               </li>
             ))}
-        </ul>
+        </ul> */
+        }
 
         {/* Name/Description */}
         <div class="flex flex-col">
           <h2
-            class="truncate text-base lg:text-lg uppercase"
+            class="truncate text-base lg:text-lg uppercase pl-2 pr-2 pt-4 pb-4"
             dangerouslySetInnerHTML={{ __html: name ?? "" }}
           />
 
-          <div
-            class="truncate text-xs"
+          {
+            /*           <div
+            class="truncate text-xs pl-2 pr-2"
             dangerouslySetInnerHTML={{ __html: description ?? "" }}
-          />
+          /> */
+          }
         </div>
 
         {/* Price from/to */}
-        <div class="flex gap-2 items-center justify-end font-light">
+        <div class="flex gap-2 items-center justify-start font-light pl-2 pr-2">
           <span class="line-through text-sm">
             {formatPrice(listPrice, offers?.priceCurrency)}
           </span>
-          <span>
+          <span class="font-bold">
             {formatPrice(price, offers?.priceCurrency)}
           </span>
         </div>
 
         {/* Installments */}
-        <span class="flex justify-end gap-2 font-light text-sm truncate">
+        <span class="flex justify-start gap-2 font-light text-sm truncate pl-2 pr-2">
           ou {installments}
         </span>
 
         <a
           href={relativeUrl}
           aria-label="view product"
-          class="btn btn-block"
+          class="btn btn-block quickview rounded-none slide-top text-neutral-50 border-transparent bg-zinc-950 hover:bg-zinc-950/[.7] hover:border-transparent"
         >
           Ver produto
         </a>

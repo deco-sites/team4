@@ -106,13 +106,13 @@ function Navbar({
           logoPosition === "left" ? "justify-center" : "justify-start"
         }`}
       >
-        {items.map((item) => (
-          <NavItem item={item} />
-        ))}
+        {items.map((item) => <NavItem item={item} />)}
 
-        {/* {imagens.map((imagem) => (
+        {
+          /* {imagens.map((imagem) => (
           <NavItem imagem={imagem} />
-        ))} */}
+        ))} */
+        }
 
         {/* <Imagem imagens={imagens} /> */}
       </ul>

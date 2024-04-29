@@ -1,8 +1,6 @@
 import Icon from "../../../components/ui/Icon.tsx";
 
-interface Props {}
-
-function InputSearch(props: Props) {
+function InputSearch() {
   return (
     <>
       <div class="border-b-black border-[1px] border-t-transparent border-r-transparent border-l-transparent">
