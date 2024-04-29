@@ -5,6 +5,10 @@ export default {
   daisyui: { themes: [], logs: false },
   content: ["./**/*.tsx"],
   theme: {
+    colors: {
+      highlight: "#E9177C",
+      dark: "#1A1A1A"
+    },
     container: { center: true },
     extend: {
       animation: {
