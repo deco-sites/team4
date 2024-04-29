@@ -47,9 +47,8 @@ export default function Benefits(
   } = props;
 
   const listOfBenefits = benefits.map((benefit) => {
-
     return (
-      <div class="flex items-center" >
+      <div class="flex items-center">
         <div class="flex-none h-fit	">
           <Icon
             id={benefit.icon}

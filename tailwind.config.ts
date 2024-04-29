@@ -7,7 +7,7 @@ export default {
   theme: {
     colors: {
       highlight: "#E9177C",
-      dark: "#1A1A1A"
+      dark: "#1A1A1A",
     },
     container: { center: true },
     extend: {
