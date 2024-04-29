@@ -15,7 +15,14 @@ import NavItem from "./NavItem.tsx";
 import { navbarHeight } from "./constants.ts";
 import { Buttons, Logo } from "../../components/header/Header.tsx";
 
+import InputSearch from "./Buttons/InputSearch.tsx";
+
 // import { Serchbar } from "../search/Searchbar.tsx";
+
+interface imagem {
+  src: string;
+  alt: string;
+}
 
 // Make it sure to render it on the server only. DO NOT render it on an island
 function Navbar({
@@ -25,6 +32,7 @@ function Navbar({
   buttons,
   logoPosition = "left",
   device,
+  imagem,
 }: {
   items: SiteNavigationElement[];
   searchbar?: SearchbarProps;
@@ -32,6 +40,7 @@ function Navbar({
   buttons?: Buttons;
   logoPosition?: "left" | "center";
   device: "mobile" | "desktop" | "tablet";
+  imagem?: imagem[];
 }) {
   const platform = usePlatform();
 
@@ -74,7 +83,8 @@ function Navbar({
 
   // Desktop header
   return (
-    <div class="hidden sm:grid sm:grid-cols-3 items-center border-b border-base-200 w-full px-6">
+    // hidden sm:grid sm:grid-cols-3 items-center border-b border-base-200 w-full px-6
+    <div class="flex justify-between items-center pl-[60px] pr-[60px]">
       <div
         class={`flex ${
           logoPosition === "left" ? "justify-start -order-1" : "justify-center"
@@ -99,14 +109,19 @@ function Navbar({
         {items.map((item) => (
           <NavItem item={item} />
         ))}
+
+        {/* {imagens.map((imagem) => (
+          <NavItem imagem={imagem} />
+        ))} */}
+
+        {/* <Imagem imagens={imagens} /> */}
       </ul>
 
       <div class="flex-none flex items-center justify-end gap-6 col-span-1">
         {!buttons?.hideSearchButton && (
           <div class="flex items-center text-xs font-thin gap-1">
-            <SearchButton />
-            {/* <Serchbar /> */}
-            Pesquisar
+            <InputSearch />
+            {/* <SearchButton /> */}
           </div>
         )}
 
@@ -120,7 +135,7 @@ function Navbar({
             <div class="flex btn btn-circle btn-sm btn-ghost gap-1">
               <Icon id="User" size={20} strokeWidth={0.4} />
             </div>
-            ACCOUNT
+            Minha conta
           </a>
         )}
         {!buttons?.hideWishlistButton && (
@@ -135,7 +150,6 @@ function Navbar({
             >
               <Icon id="Heart" size={24} strokeWidth={0.4} />
             </button>
-            WISHLIST
           </a>
         )}
         {!buttons?.hideCartButton && (
