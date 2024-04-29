@@ -3317,7 +3317,8 @@
             }
           },
           "__resolveType": "site/loaders/Layouts/ProductCard.tsx"
-        }
+        },
+        "title": "Novidades Alfaiataria"
       },
       {
         "__resolveType": "site/sections/Product/ShelfWithImage.tsx",
