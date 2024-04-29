@@ -1593,7 +1593,8 @@
       "height": 16
     },
     "alerts": [
-      "Use this template to create your store at deco.cx"
+      "FRETE GRÁTIS em compras acima de R$ 199! Aproveite",
+      "Quer ou não quer?"
     ],
     "navItems": {
       "__resolveType": "navbar"
