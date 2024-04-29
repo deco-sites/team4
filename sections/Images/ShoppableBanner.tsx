@@ -78,8 +78,8 @@ export default function ShoppableBanner(props: Props) {
 
   return (
     <div class="container">
-      <div class="card lg:card-side rounded grid grid-cols-1 lg:grid-cols-2">
-        <figure class="relative">
+      <div class="card lg:card-side rounded grid grid-cols-1 lg:grid-cols-2 soppablebanner">
+        <figure class="relative soppablebanner-grid-1">
           <Picture>
             <Source
               media="(max-width: 767px)"
@@ -127,7 +127,7 @@ export default function ShoppableBanner(props: Props) {
             </>
           ))}
         </figure>
-        <div class="flex flex-col justify-center gap-6 py-20 px-8 bg-neutral-content">
+        <div class="flex flex-col justify-center gap-6 py-20 px-8 bg-neutral-content soppablebanner-grid-2">
           <h2 class={`card-title flex ${title?.layout?.position}`}>
             {title?.content}
           </h2>
