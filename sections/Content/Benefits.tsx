@@ -1,5 +1,4 @@
 import Icon, { AvailableIcons } from "../../components/ui/Icon.tsx";
-import Header from "../../components/ui/SectionHeader.tsx";
 
 interface Benefit {
   label: string;
@@ -12,19 +11,7 @@ interface Benefit {
 }
 
 export interface Props {
-  /**
-   * @default Benefits
-   */
-  title?: string;
-  /**
-   * @default Check out the benefits
-   */
-  description?: string;
   benefits?: Array<Benefit>;
-  layout?: {
-    variation?: "Simple" | "With border" | "Color reverse";
-    headerAlignment?: "center" | "left";
-  };
 }
 
 export default function Benefits(
