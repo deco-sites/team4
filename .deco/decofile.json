@@ -2219,13 +2219,17 @@
     "title": "What we're loving right now",
     "layout": {
       "headerfontSize": "Large",
-      "headerAlignment": "center"
+      "headerAlignment": "center",
+      "numberOfSliders": {
+        "mobile": 2,
+        "desktop": 4
+      }
     },
     "products": {
       "props": {
         "sort": "price:desc",
         "count": 8,
-        "collection": "139"
+        "collection": "219"
       },
       "__resolveType": "vtex/loaders/intelligentSearch/productList.ts"
     },
@@ -2390,7 +2394,7 @@
   "Shoppable Banner - 01": {
     "link": {
       "href": "/feminino",
-      "text": "Explore collection",
+      "text": "Explore collection asdasdq",
       "layout": {
         "position": "justify-center"
       }
@@ -2425,7 +2429,7 @@
       "layout": {
         "position": "text-center"
       },
-      "content": "Your description"
+      "content": "Your description "
     },
     "image": {
       "mobile": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/2291/23be366c-fa07-4520-9338-387ce77acabb",
@@ -3252,7 +3256,7 @@
             "description": "Acima de R$ 500"
           },
           {
-            "icon": "Pixs",
+            "icon": "Pix",
             "label": "Pague com Pix e ",
             "description": "Ganhe 3% OFF"
           },
@@ -3262,7 +3266,7 @@
             "description": "Troque na Loja"
           },
           {
-            "icon": "CreditCards",
+            "icon": "ShoppingCart",
             "label": "Parcele em Até",
             "description": "10x Sem Juros"
           },
@@ -3380,37 +3384,7 @@
         "__resolveType": "Product Shelf - 03"
       },
       {
-        "__resolveType": "site/sections/Content/BlogPosts.tsx",
-        "title": "Blogposts",
-        "posts": [
-          {
-            "alt": "Item of the Summer",
-            "date": "January 15, 2024",
-            "href": "/",
-            "image": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/2291/7e80b083-d1ff-480d-b3a3-b744b69402b1",
-            "label": "Item of the Summer",
-            "author": "deco.cx",
-            "description": "Lorem ipsum dolor sit amet consectetur. Condimentum dolor ultrices commodo et. Blandit vel est sodales tincidunt aliquam tincidunt. "
-          },
-          {
-            "alt": "Item of the Summer",
-            "date": "January 15, 2024",
-            "href": "/",
-            "image": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/2291/a3f329d8-795c-4c3b-8049-ede939d599ef",
-            "label": "Item of the Summer",
-            "author": "deco.cx",
-            "description": "Lorem ipsum dolor sit amet consectetur. Condimentum dolor ultrices commodo et. Blandit vel est sodales tincidunt aliquam tincidunt. "
-          },
-          {
-            "alt": "Item of the Summer",
-            "date": "January 15, 2024",
-            "href": "/",
-            "image": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/2291/7e80b083-d1ff-480d-b3a3-b744b69402b1",
-            "label": "Item of the Summer",
-            "author": "deco.cx",
-            "description": "Lorem ipsum dolor sit amet consectetur.  Condimentum dolor ultrices commodo et. Blandit vel est sodales tincidunt aliquam tincidunt. "
-          }
-        ]
+        "__resolveType": "Shoppable Banner - 01"
       },
       {
         "__resolveType": "Footer - 04"
