@@ -1,6 +1,5 @@
 import Icon from "../../../components/ui/Icon.tsx";
 
-
 function InputSearch() {
   return (
     <>
