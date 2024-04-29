@@ -2394,53 +2394,28 @@
   "Shoppable Banner - 01": {
     "link": {
       "href": "/feminino",
-      "text": "Explore collection asdasdq",
+      "text": "Saber Mais",
       "layout": {
         "position": "justify-center"
       }
     },
-    "pins": [
-      {
-        "link": "/feminino",
-        "label": "Glasses",
-        "mobile": {
-          "x": 12,
-          "y": 59
-        },
-        "desktop": {
-          "x": 7,
-          "y": 60
-        }
-      },
-      {
-        "link": "/feminino",
-        "label": "Bag",
-        "mobile": {
-          "x": 30,
-          "y": 30
-        },
-        "desktop": {
-          "x": 30,
-          "y": 30
-        }
-      }
-    ],
+    "pins": [],
     "text": {
       "layout": {
-        "position": "text-center"
+        "position": "text-left"
       },
-      "content": "Your description "
+      "content": "Queremos estar ao lado de nossos clientes em todos os momentos através de uma parceria capaz de transformar espaços do seu jeito. Juntos, vamos tornar este sonho realidade. Desde 1995, estamos localizados na Serra Gaúcha, maior polo moveleiro do Brasil, e temos a missão de oferecer bem-estar em mobiliário.  Através de nossos produtos, levamos qualidade, versatilidade e conforto aos exigentes consumidores deste mundo moderno. Nossos produtos se diferenciam pelo acabamento superior."
     },
     "image": {
-      "mobile": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/2291/23be366c-fa07-4520-9338-387ce77acabb",
+      "mobile": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/8315/046254d3-d0a2-4ea6-b953-f85d3d226c6a",
       "altText": "a",
-      "desktop": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/2291/b79dcfc0-45b8-40c4-a3ba-310e66995529"
+      "desktop": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/8315/d965c049-55cb-418f-a8e3-a44dcdb96d87"
     },
     "title": {
       "layout": {
         "position": "justify-center"
       },
-      "content": "Awesome collection "
+      "content": "Sobre Nós"
     },
     "__resolveType": "site/sections/Images/ShoppableBanner.tsx"
   },
@@ -3213,8 +3188,8 @@
                     "title": "VTEX Store",
                     "subTitle": "Visit our site and start building now:"
                   },
-                  "mobile": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/2291/c007e481-b1c6-4122-9761-5c3e554512c1",
-                  "desktop": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/2291/d057fc10-5616-4f12-8d4c-201bb47a81f5"
+                  "mobile": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/8315/f2c80e61-11a2-470f-ac88-1f74fa89f8ad",
+                  "desktop": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/8315/1ed0be22-0fc0-415c-8513-0afc7800495b"
                 },
                 {
                   "alt": "Masculino",
@@ -3224,8 +3199,8 @@
                     "title": "VTEX Store",
                     "subTitle": "Visit our site and start building now:"
                   },
-                  "mobile": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/2291/c007e481-b1c6-4122-9761-5c3e554512c1",
-                  "desktop": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/2291/d057fc10-5616-4f12-8d4c-201bb47a81f5"
+                  "mobile": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/8315/11cd47f3-abcd-419e-9f6f-66c8a5fa934c",
+                  "desktop": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/8315/82b52697-0270-4fc4-8122-ef94f950f327"
                 },
                 {
                   "alt": "Vestidos",
@@ -3235,8 +3210,8 @@
                     "title": "VTEX Store",
                     "subTitle": "Visit our site and start building now:"
                   },
-                  "mobile": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/2291/c007e481-b1c6-4122-9761-5c3e554512c1",
-                  "desktop": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/2291/d057fc10-5616-4f12-8d4c-201bb47a81f5"
+                  "mobile": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/8315/7cfa4e4e-5e85-40db-b3f1-61d0b0e40f1d",
+                  "desktop": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/8315/842bae9c-88ae-4cff-9ca9-33ccaf50d854"
                 }
               ],
               "preload": true
