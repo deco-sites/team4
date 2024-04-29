@@ -3377,39 +3377,7 @@
         }
       },
       {
-        "__resolveType": "site/sections/Product/ProductShelfTabbed.tsx",
-        "title": "Best Sellers",
-        "tabs": [
-          {
-            "title": "Woman",
-            "products": {
-              "props": {
-                "sort": "price:desc",
-                "count": 8,
-                "query": "vestido"
-              },
-              "__resolveType": "vtex/loaders/intelligentSearch/productList.ts"
-            }
-          },
-          {
-            "title": "Man",
-            "products": {
-              "props": {
-                "sort": "price:desc",
-                "count": 8,
-                "collection": "140"
-              },
-              "__resolveType": "vtex/loaders/intelligentSearch/productList.ts"
-            }
-          }
-        ],
-        "layout": {
-          "headerfontSize": "Large",
-          "headerAlignment": "center"
-        },
-        "cardLayout": {
-          "__resolveType": "Product Card Layout - 01"
-        }
+        "__resolveType": "Product Shelf - 03"
       },
       {
         "__resolveType": "site/sections/Content/BlogPosts.tsx",
