@@ -3191,7 +3191,8 @@
               "preload": true
             },
             "rule": {
-              "__resolveType": "Teste AB"
+              "__resolveType": "website/matchers/random.ts",
+              "traffic": 0.5
             }
           },
           {
@@ -3275,13 +3276,17 @@
       {
         "__resolveType": "site/sections/Product/ProductShelf.tsx",
         "layout": {
-          "showArrows": true
+          "showArrows": true,
+          "numberOfSliders": {
+            "desktop": 4
+          }
         },
         "products": {
           "props": {
             "sort": "price:desc",
-            "count": 6,
-            "collection": "139"
+            "count": 11,
+            "collection": "212",
+            "hideUnavailableItems": false
           },
           "crossSelling": "similars",
           "__resolveType": "vtex/loaders/intelligentSearch/productList.ts"
