@@ -557,7 +557,7 @@
         "items": [
           {
             "href": "/quem-somos",
-            "label": "Quem somos"
+            "label": "Somos quem?"
           },
           {
             "href": "/privacidade",
@@ -576,7 +576,7 @@
         "children": [
           {
             "href": "/quemsomos",
-            "label": "Quem somos"
+            "label": "Somos quem?"
           },
           {
             "href": "/privacidadeeseguranca",
@@ -596,7 +596,7 @@
         "items": [
           {
             "href": "/central-de-atendimento",
-            "label": "Central de atendimento"
+            "label": "Central de quem somos"
           },
           {
             "href": "/fale-whatsapp",
@@ -783,7 +783,7 @@
         "children": [
           {
             "href": "/quemsomos",
-            "label": "Quem somos"
+            "label": "somos?"
           },
           {
             "href": "/privacidadeeseguranca",
@@ -2591,8 +2591,10 @@
         "@type": "SiteNavigationElement",
         "image": [
           {
-            "url": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/239/7733d479-0fd1-4f33-bed9-6f9e170655d6",
-            "@type": "ImageObject"
+            "url": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/239/7733d479-0fd1-4f33-bed9-6f9e170655d6"
+          },
+          {
+            "url": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/239/575c3b0f-1a2e-4ecb-aaad-532671dc553d"
           }
         ],
         "children": [
@@ -2647,7 +2649,7 @@
       },
       {
         "url": "/sale",
-        "name": "Sale",
+        "name": "Infantil",
         "@type": "SiteNavigationElement",
         "image": [
           {
@@ -2694,7 +2696,22 @@
       },
       {
         "url": "/linktree",
-        "name": "Link Tree",
+        "name": "Calçados",
+        "@type": "SiteNavigationElement"
+      },
+      {
+        "url": "/",
+        "name": "Acessórios",
+        "@type": "SiteNavigationElement"
+      },
+      {
+        "url": "/",
+        "name": "New",
+        "@type": "SiteNavigationElement"
+      },
+      {
+        "url": "/",
+        "name": "Sale",
         "@type": "SiteNavigationElement"
       }
     ],
@@ -3517,9 +3534,7 @@
         "jsonLD": {
           "__resolveType": "PDP Loader"
         },
-        "jsonLDs": [
-          {}
-        ],
+        "jsonLDs": [{}],
         "__resolveType": "commerce/sections/Seo/SeoPDP.tsx"
       },
       {
