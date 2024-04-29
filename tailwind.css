@@ -82,14 +82,51 @@
   transform: translateX(-50%);
   overflow: hidden;
   opacity: 0;
+  background-color: #161616;
+}
+
+.quickview:hover{
+  background-color: #1616169b;
 }
 
 .product-shelf:hover .slide-top {
 	-webkit-animation: slide-top 0.5s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
 	animation: slide-top 0.5s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
   left: 5%;
+  
 }
 
+.soppablebanner{
+  background-color: #F5F5F5;
+	grid-template-areas:
+		"grid-2 grid-1";
+}
+
+.soppablebanner h2{
+  font-size: 32px;
+  color: #1A1A1A;
+}
+
+.soppablebanner p{
+  font-size: 16px;
+  color: #919598;
+}
+
+.soppablebanner a{
+  background-color: #E9177C;
+  padding: 15px 16px ;
+  text-decoration: none;
+  color: #fff;
+}
+
+.soppablebanner-grid-1{
+  grid-area: grid-1;
+}
+
+.soppablebanner-grid-2{
+  grid-area: grid-2;
+  background-color: #F5F5F5;
+}
 
 @-webkit-keyframes slide-top {
   0% {
